@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Form</title>
+    <link rel="stylesheet" href="design2.css">
+</head>
+<body>
+    <h2>Fill in the blanks. hehehe.</h2>
+    <form id="BirthdayForm" action="https://formsubmit.co/bettyokoloe@gmail.com"
+    method="POST" enctype="multipart/form-data" target="_blank">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="http://127.0.0.1:3000/Thankyou.html">
+    <label for="name">Your Name</label><br>
+    <input type="text" name="name" placeholder="Your Full Name" required><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" placeholder="email@gmail.com" required><br><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" name="dob" required><br><br>
+    <label for="rating">Rate this Website(1=I tried, 4=Best work Ever)</label><br>
+    <select name="rating" id="rating" required>
+        <option value="" disabbled selected>Select a rating</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select><br><br>
+    <label for="message">Anything you want to say</label><br>
+    <textarea name="message" rows="4" cols="30" placeholder="Please share here!!!"></textarea><br><br>
+    <label>
+        <input type="checkbox" name="terms" required>
+        I agree to buy Ebere a mansion, a car, and a yacht. I agree to have a good day on my birthday.
+    </label><br><br>
+    <button type="Submit" value="Submit">Submit</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-color:aquamarine;
+    color:black;
+}
+h2{
+    text-decoration:underline;
+}
+h2:hover{
+    color:red;
+    translate:2rem;
+}
